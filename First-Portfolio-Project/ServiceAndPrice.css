@@ -1,0 +1,84 @@
+
+body{
+    font-family:'Play', sans-serif;
+}
+#logo {
+    background-image: url("images/SeviceAndPrice/SeviceAndPriceBG.JPG");
+    background-repeat:no-repeat;
+    background-size: cover, 100%;
+    height: 400px;
+    position: relative;
+    background-position: 50% 50%; 
+    
+}
+#ServiceAndPrice{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    padding: 150px 0;
+    text-align: center;
+    font-size: 100px;
+    color:aliceblue;
+    font-family:'Play', sans-serif;
+    
+}
+
+#p1{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+table,
+th,
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+table{
+    width: 700px;
+}
+th{
+    background-color: rgb(231, 111, 81);
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 150px;
+}
+#td{
+    text-align: center;
+}
+td{
+    height: 20px;
+    text-align: left;
+}
+#td1{
+    background-color: rgb(244,162,97);
+    width: fit-content;
+    text-align: center;
+}
+#td2{
+    text-align: center;
+}
+
+#social-icons2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Sicon2{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+
+
+footer{
+    background-image: url("images/SeviceAndPrice/SeviceAndPriceFT.JPG");
+    align-items: center;
+}
